@@ -1,0 +1,8 @@
+<!ELEMENT rozklad_jazdy (trasy+)>
+        <!ELEMENT trasy (trasa+)>
+        <!ELEMENT trasa (godzina_odjazdu, godzina_przyjazdu, nr_autokaru)>
+        <!ELEMENT godzina_odjazdu (#PCDATA)>
+        <!ELEMENT godzina_przyjazdu (#PCDATA)>
+        <!ELEMENT nr_autokaru (#PCDATA)>
+        <!ATTLIST trasa z CDATA #REQUIRED>
+        <!ATTLIST trasa do CDATA #REQUIRED>

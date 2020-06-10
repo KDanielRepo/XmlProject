@@ -1,0 +1,22 @@
+rozklad_jazdy {
+  display: table;
+  border: solid 1px;
+  }
+trasa:before{
+  content: attr(z) ' : 'attr(do);
+
+  }
+trasa{
+    display: table-cell;
+    border: solid 1px;
+}
+godzina_odjazdu {
+   display: table-cell;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   }
+godzina_przyjazdu {
+    display: table-cell;
+    padding-right: 10px;
+ }

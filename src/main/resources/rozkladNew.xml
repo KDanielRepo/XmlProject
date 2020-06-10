@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rozklad_jazdy>
+    <trasy>
+        <trasa z="Koszalin" do="Gdańsk">
+            <godzina_odjazdu>8:45</godzina_odjazdu>
+            <godzina_przyjazdu>12:00</godzina_przyjazdu>
+            <nr_autokaru>AU-82152</nr_autokaru>
+        </trasa>
+        <trasa z="Gdańsk" do="Poznań">
+            <godzina_odjazdu>11:35</godzina_odjazdu>
+            <godzina_przyjazdu>16:25</godzina_przyjazdu>
+            <nr_autokaru>AU-44172</nr_autokaru>
+        </trasa>
+        <trasa z="Poznań" do="Koszalin">
+            <godzina_odjazdu>15:45</godzina_odjazdu>
+            <godzina_przyjazdu>19:15</godzina_przyjazdu>
+            <nr_autokaru>AU-65123</nr_autokaru>
+        </trasa>
+        <trasa z="Leczno" do="Bialogard">
+            <godzina_odjazdu>9:00</godzina_odjazdu>
+            <godzina_przyjazdu>10:00</godzina_przyjazdu>
+            <nr_autokaru>AU-2934</nr_autokaru>
+        </trasa>
+    </trasy>
+</rozklad_jazdy>
